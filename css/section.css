@@ -1,36 +1,79 @@
-.top-section{
-	height: 50vh;
-	background-color: #181818;
-	border-radius: 4px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
-	margin-top: 1%;
+.top-section {
+  height: 50vh;
+  background-color: green;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 1%;
+  box-shadow: greenyellow 5px 5px 20px;
+  transition: 0.3s;
 }
-.top-section > h2{
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: white;
-	letter-spacing: 0.7px;
+.top-section:hover {
+  box-shadow: -5px -5px 20px greenyellow;
+  transition: 0.4s;
 }
-.top-section__btns{
-	display: flex;
-	justify-content: center;
-	width: 100vw;
+.top-section > h2 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 0.7px;
 }
-.top-section__btn{
-	padding: 8px 12px;
-	border-radius: 6px 3px;
-	border: 2px solid #fff;
-	text-decoration: none;
-	color: #fff;
-	margin: 1%;
-	transition: 0.3s;
+.top-section__btns {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
 }
-.top-section__btn:hover{
-	border: 2px solid grey;
-	background: grey;
-	border-radius: 8px;
-	transition: 0.3s;
+.top-section__btn {
+  padding: 8px 12px;
+  border-radius: 6px 3px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  margin: 1%;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.top-section__btn:hover {
+  border: 2px solid greenyellow;
+  background: greenyellow;
+  color: #181818;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.top-section__btn:nth-child(2) {
+  border-radius: 3px 6px;
+}
+.description-container {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  height: 45vh;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+  height: inherit;
+  background-color: green;
+  border-radius: 8px;
+}
+.description__col {
+  height: inherit;
+  width: 50%;
+}
+.description__img {
+  height: inherit;
+  border-radius: 8px 0px 0px 8px;
+}
+.description__text {
+  width: 90%;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+.description__text > h3 {
+  font-size: x-large;
 }
