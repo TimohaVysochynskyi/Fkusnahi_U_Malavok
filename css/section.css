@@ -1,0 +1,36 @@
+.top-section{
+	height: 50vh;
+	background-color: #181818;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin-top: 1%;
+}
+.top-section > h2{
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+	letter-spacing: 0.7px;
+}
+.top-section__btns{
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+}
+.top-section__btn{
+	padding: 8px 12px;
+	border-radius: 6px 3px;
+	border: 2px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	margin: 1%;
+	transition: 0.3s;
+}
+.top-section__btn:hover{
+	border: 2px solid grey;
+	background: grey;
+	border-radius: 8px;
+	transition: 0.3s;
+}

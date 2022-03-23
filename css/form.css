@@ -1,0 +1,13 @@
+.preorder-form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.form-control{
+	margin: 0.2%;
+	padding: 6px 12px;
+	min-width: 300px;
+	border-radius: 3px;
+	border: 1px solid grey
+}
