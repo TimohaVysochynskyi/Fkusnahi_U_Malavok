@@ -3,11 +3,32 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: 2%;
+}
+.preorder-form > h2{
+	margin: 0;
 }
 .form-control{
 	margin: 0.2%;
 	padding: 6px 12px;
 	min-width: 300px;
 	border-radius: 3px;
-	border: 1px solid grey
+	border: 1px solid grey;
+	font-size: 16px;
+}
+.preorder-form__btn{
+	padding: 6px 12px;
+	border: 2px solid #181818;
+	font-size: 16px;
+	border-radius: 6px 3px;
+	margin: 0.3%;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	transition: 0.3s;
+}
+.preorder-form__btn:hover{
+	background-color: #181818;
+	color: #fff;
+	border-radius: 8px;
+	transition: 0.3s;
 }
