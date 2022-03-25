@@ -3,6 +3,7 @@
 @import url(./header-footer.css);
 @import url(./section.css);
 @import url(./form.css);
+@import url(./menu.css);
 
 body{
 	font-family: 'Roboto', sans-serif;

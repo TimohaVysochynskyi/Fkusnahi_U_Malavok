@@ -1,0 +1,67 @@
+.food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food__row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+}
+.food__col{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    transition: 0.4s;
+}
+.food__col:hover{
+    transform: scale(1.07);
+    box-shadow: 0px 0px 10px green;
+    transition: 0.4s;
+}
+.food__col:nth-child(1){
+    background-image: url(../images/breackfast.jpg);
+    border-radius: 10px;
+}
+.food__col:nth-child(2){
+    background-image: url(../images/mainfood.jpg);
+    border-radius: 10px;
+}
+.food__col:nth-child(3){
+    background-image: url(../images/snacks.jpg);
+    border-radius: 10px;
+}
+.food__col:nth-child(4){
+    background-image: url(../images/deserts.jpg);
+    border-radius: 10px;
+}
+.food__col:nth-child(5){
+    background-image: url(../images/drinks.jpg);
+    border-radius: 10px;
+}
+.food__col:nth-child(6){
+    background-image: url(../images/adds.jpg);
+    border-radius: 10px;
+}
+.food__dark{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.food__dark>h2{
+    font-size: 28px;
+    text-shadow: 0px 0px 2px #fff;
+    -webkit-text-stroke: 1px black;
+}
