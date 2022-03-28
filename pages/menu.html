@@ -19,34 +19,54 @@
             </ul>
         </nav>
     </header>
+	<div class="menu">
+		<div class="food__menu" id="breackfasts">
+			<h2>Breackfast</h2>
+		</div>
+		<div class="food__menu" id="main-food">
+			<h2>Main food</h2>
+		</div>
+		<div class="food__menu" id="snacks">
+			<h2>Snacks</h2>
+		</div>
+		<div class="food__menu" id="deserts">
+			<h2>Deserts</h2>
+		</div>
+		<div class="food__menu" id="drinks">
+			<h2>Drinks</h2>
+		</div>
+		<div class="food__menu" id="adds">
+			<h2>Adds</h2>
+		</div>
+	</div>
     <div class="food">
         <div class="food__row">
-            <a href="#" style="margin: 2%;" class="food__col">
+            <a href="#" style="margin: 2%;" class="food__col" id="breackfast-btn" onclick="Show_Breackfasts()">
                 <div class="food__dark">
                     <h2>Сніданки</h2>
                 </div>
             </a>
-            <a href="#" style="margin: 2%;" class="food__col">
+            <a href="#" style="margin: 2%;" class="food__col" id="main-food-btn" onclick="Show_Main_Food()">
                 <div class="food__dark">
                     <h2>Основні страви</h2>
                 </div>
             </a>
-            <a href="#" style="margin: 2%;" class="food__col">
+            <a href="#" style="margin: 2%;" class="food__col" id="snacks-btn" onclick="Show_Snacks()">
                 <div class="food__dark">
                     <h2>Закуски</h2>
                 </div>
             </a>
-            <a href="#" style="margin: 2%;" class="food__col">
+            <a href="#" style="margin: 2%;" class="food__col" id="deserts-btn" onclick="Show_Deserts()">
                 <div class="food__dark">
                     <h2>Десерти</h2>
                 </div>
             </a>
-            <a href="#" style="margin: 2%;" class="food__col">
+            <a href="#" style="margin: 2%;" class="food__col" id="drinks-btn" onclick="Show_Drinks()">
                 <div class="food__dark">
                     <h2>Напої</h2>
                 </div>
             </a>
-            <a href="#" style="margin: 2%;" class="food__col">
+            <a href="#" style="margin: 2%;" class="food__col" id="adds-btn" onclick="Show_Adds()">
                 <div class="food__dark">
                     <h2>Спеції та добавки</h2>
                 </div>
@@ -68,5 +88,6 @@
 			</ul>
 		</nav>
 	  </footer>
+	<script src="../js/script.js"></script>
 </body>
 </html>

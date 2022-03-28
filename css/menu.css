@@ -65,3 +65,7 @@
     text-shadow: 0px 0px 2px #fff;
     -webkit-text-stroke: 1px black;
 }
+
+.food__menu{
+	display: none;
+}
